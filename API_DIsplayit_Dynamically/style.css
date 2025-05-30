@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+
+}
+
+h1{
+     font-weight: bolder;
+     font-size: large;
+   
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.container{
+    background-color: rgb(162, 202, 234);
+}
+.card {
+  box-shadow: 0 4px 8px rgba(60, 234, 54, 0.1);
+  border-radius: 10px;
+  
+  padding: 5px;
+  margin: 10px ;
+  text-align: center;
+ background-color: #e0e2e9 !important;
+  transition: transform 0.3s ease;
+}
+.card img {
+  width: 300px;    
+  height: 100px;   
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+.card:hover {
+    background-color: rgb(230, 239, 171) !important;
+  transform: scale(1.03);
+}
+/* table{
+    width: 100%;
+    border-collapse: collapse; 
+
+}
+table thead{
+    background-color: blueviolet;
+    color: #fff;
+
+}
+table th,
+table td{
+    padding: 12px;
+    border: 1px ;
+    text-align: left;
+} */
